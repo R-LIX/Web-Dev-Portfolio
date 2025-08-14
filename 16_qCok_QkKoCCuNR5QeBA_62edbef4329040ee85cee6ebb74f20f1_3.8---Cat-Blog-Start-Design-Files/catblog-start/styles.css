@@ -1,0 +1,107 @@
+
+body {
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #333;
+    line-height: 1.5;
+    background: url(images/background-pattern.jpg);
+}
+main {
+    padding: 20px;
+    max-width: 760px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px #310c13;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1,h2,p {
+    margin:0;
+    padding:0;
+}
+h1, h2 {
+    font-family: "kirang Haerang", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+#box1 {
+    padding: 20px;
+}
+header h1 {
+    color: #38acdb;
+    color: oklch(0.7017 0.121 229.24);
+    font-size: 96px;
+    text-shadow: 0px 0px 5px rgba(49, 12, 19, 1);
+}
+header h1::after {
+    content: url(images/circle.png);
+    margin-left: 10px;
+}
+header h1::before {
+    content: url(images/circle.png);
+    margin-right: 10px;
+}
+article h2 {
+    color: #e5f2f7;
+    font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #daeaf1;
+    border-radius: 25px;
+    background: #16607d;
+    background: linear-gradient(180deg, rgba(22, 96, 125, 1) 0%, rgba(53, 167, 212, 1) 100%);
+}
+article p {
+    color: #000000;
+    font-size: 20px;
+    margin: 0 20px 1em 20px;
+    line-height: 1.5em;
+}
+article p.date {
+    font-size: 20px;
+    color: #000000;
+    font-style: italic;
+    font-weight: 800;
+    margin: 20px;
+}
+article a{
+    font-weight: 600px;
+    text-decoration: none;
+    color: #16536c;
+}
+a:hover {
+    text-decoration: underline;
+    color: #38acdb;
+    font-weight: 600px;
+}
+p {
+    line-height: 1.5em;
+}
+footer a{
+    background-color: #16536c;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 26px;
+    font-weight: 600px;
+    text-decoration: none;
+    color: #f0f0f0;
+    
+}
+article footer{
+    display: block;
+    background-color: #03364a;
+}
+footer {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
